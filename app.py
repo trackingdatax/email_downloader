@@ -664,9 +664,9 @@ with tab1:
         st.subheader("📮 Filtros de Email")
         
         # Remitentes
-        st.markdown("**👥 Remitentes a buscar:**")
+        st.markdown("**👥 Emails Remitentes a buscar (uno por línea):**")
         remitentes_text = st.text_area(
-            "Emails de remitentes (uno por línea)",
+            "",
             placeholder="empresa@ejemplo.com\nfacturas@proveedor.com\nrrhh@miempresa.com",
             height=100,
             help="Ingresa un email por línea"
@@ -691,9 +691,9 @@ with tab1:
         st.subheader("🔍 Filtros Adicionales")
         
         # Palabras clave en asunto (opcional)
-        st.markdown("**🔍 Palabras clave en asunto (opcional):**")
+        st.markdown("**🔍 Palabras clave en asunto (opcional y una por línea):**")
         palabras_clave_text = st.text_area(
-            "Palabras a buscar en el asunto (una por línea)",
+            "",
             placeholder="factura\nrecibo\ncomprobante",
             height=120,
             help="Opcional: buscar solo emails que contengan estas palabras en el asunto"
