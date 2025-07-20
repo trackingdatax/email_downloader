@@ -24,7 +24,7 @@ from urllib.parse import urlparse, parse_qs
 
 # Configuración de la página
 st.set_page_config(
-    page_title="📧 Descargador de Emails",
+    page_title="📧 SmartExtract Dr.Lucero",
     page_icon="📧",
     layout="wide",
     initial_sidebar_state="expanded"
