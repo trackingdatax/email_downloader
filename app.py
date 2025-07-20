@@ -616,7 +616,7 @@ with st.sidebar:
         if config_servidor["tipo"] == "Gmail":
             col1, col2 = st.columns(2)
             with col1:
-                st.markdown("**[Configuración de Seguridad](https://myaccount.google.com/security)**", unsafe_allow_html=True)
+                st.markdown("**[Setup de Seguridad](https://myaccount.google.com/security)**", unsafe_allow_html=True)
             with col2:
                 st.markdown("**[Crear App Password](https://myaccount.google.com/apppasswords)**", unsafe_allow_html=True)
         
