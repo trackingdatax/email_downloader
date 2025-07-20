@@ -744,6 +744,7 @@ with tab2:
             ext_png = st.checkbox("🖼️ PNG", value=True)
             ext_gif = st.checkbox("🎞️ GIF", value=True)
             ext_webp = st.checkbox("🌐 WEBP", value=True)
+            ext_dcm = st.checkbox("🎞️ DCM", value=True)  # ← Variable única para DCM
         
         with col_doc:
             st.markdown("*Documentos:*")
@@ -757,10 +758,12 @@ with tab2:
         if ext_png: extensiones.append(".png")
         if ext_gif: extensiones.append(".gif")
         if ext_webp: extensiones.append(".webp")
+        if ext_dcm: extensiones.append(".dcm")
         if ext_pdf: extensiones.append(".pdf")
         if ext_docx: extensiones.extend([".doc", ".docx"])
         if ext_xlsx: extensiones.extend([".xls", ".xlsx"])
         if ext_txt: extensiones.append(".txt")
+        
         
         if extensiones:
             st.success(f"✅ {len(extensiones)} tipo(s) de archivo seleccionado(s)")
