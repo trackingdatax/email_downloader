@@ -512,7 +512,7 @@ st.markdown("""
 # Header principal
 st.markdown("""
 <div class="main-header">
-    <h1>📧 Descargador Automático de Emails</h1>
+    <h1>📧 SmartExtract Dr.Lucero</h1>
     <p>Configura y descarga archivos desde tus emails de forma automática</p>
 </div>
 """, unsafe_allow_html=True)
@@ -964,7 +964,7 @@ with tab3:
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center; color: #666; padding: 1rem;">
-    📧 <strong>Descargador Automático de Emails</strong> | 
+    📧 <strong>SmartExtract Dr.Lucero</strong> | 
     Desarrollado por <strong>TrackingDatax</strong>
 </div>
 """, unsafe_allow_html=True)
