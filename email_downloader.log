@@ -461,3 +461,23 @@
 2025-07-20 15:40:32,613 - INFO - Buscando emails de envios@octavo-piso.com.ar"
 2025-07-20 15:40:32,614 - ERROR - Error al buscar emails: command SEARCH illegal in state AUTH, only allowed in states SELECTED
 2025-07-20 15:40:32,614 - INFO - No se encontraron emails que coincidan con los criterios
+2025-07-21 18:44:18,952 - INFO - Iniciando descarga de archivos desde emails
+2025-07-21 18:44:19,935 - INFO - Conectado exitosamente a victorlucero1981@gmail.com
+2025-07-21 18:44:20,212 - INFO - === INICIANDO BÚSQUEDA COMBINADA ===
+2025-07-21 18:44:20,214 - INFO - 📅 Filtro de fecha: desde 21-Feb-2025
+2025-07-21 18:44:20,214 - INFO - 🔍 Aplicando solo filtro de palabras clave: 5 palabra(s)
+2025-07-21 18:44:20,215 - INFO -   Buscando: ASUNTO contiene 'tcmaxonline'
+2025-07-21 18:44:20,524 - INFO -   Buscando: ASUNTO contiene 'tomografia'
+2025-07-21 18:44:20,762 - INFO -   Buscando: ASUNTO contiene 'radiografia'
+2025-07-21 18:44:21,127 - INFO -   Buscando: ASUNTO contiene 'panoramica'
+2025-07-21 18:44:21,404 - INFO -   ✅ Encontrados 1 emails
+2025-07-21 18:44:21,405 - INFO -   Buscando: ASUNTO contiene 'rx'
+2025-07-21 18:44:21,631 - INFO -   ✅ Encontrados 1 emails
+2025-07-21 18:44:21,631 - INFO - 📊 TOTAL de emails únicos encontrados (antes de filtrar por archivos): 2
+2025-07-21 18:44:21,631 - INFO - === BÚSQUEDA COMBINADA COMPLETADA ===
+2025-07-21 18:44:22,929 - INFO - Procesando email de Hugo Gimenez <hugogimenez065@gmail.com>: Fwd: Gimenez, Hugo F. panoramica.
+2025-07-21 18:44:22,945 - INFO - Descargado: archivos_medicos_descargados\2025-03-28\Hugo_Gimenez__hugogimenez065\20250328_110828_Hugo_Gimenez__hugogimenez065_Fwd__Gimenez,_Hugo_F._panorami_000_GIMENEZ_HUGO_FERNANDO_20250327_658383.jpg
+2025-07-21 18:44:23,935 - INFO - Procesando email de Gina De Ritis <ginaderitis@hotmail.com>: RV: Rx DE RITIS GINA
+2025-07-21 18:44:23,943 - INFO - Descargado: archivos_medicos_descargados\2025-03-31\Gina_De_Ritis__ginaderitis\20250331_125052_Gina_De_Ritis__ginaderitis_RV__Rx_DE_RITIS_GINA_000_DE_RITIS_GINA_P.jpg
+2025-07-21 18:44:23,966 - INFO - Descargado: archivos_medicos_descargados\2025-03-31\Gina_De_Ritis__ginaderitis\20250331_125052_Gina_De_Ritis__ginaderitis_RV__Rx_DE_RITIS_GINA_001_DE_RITIS_GINA_SER_INF.jpg
+2025-07-21 18:44:24,470 - INFO - Proceso completado: 2 emails procesados, 2 emails con archivos relevantes, 3 archivos descargados
